@@ -3,4 +3,7 @@ This is my Numerical Technique Laboratory Project . in this project, I developed
 
 ![Screenshot](assets/Screenshot%202026-06-21%20011011.png)
 
-![DM](assets/Screenshot 2026-06-21 011258.png)
+
+![DM](assets/Screenshot%202026-06-21%20011258.png)
+
+
