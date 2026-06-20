@@ -8,12 +8,13 @@ The application supports two methods of motor analysis:
 2. **Direct Parameter Input Method**
 - Stator resistance and reactance
 - Rotor resistance and reactance
-- - Core-loss resistance
-  - - Magnetizing reactance
-    - - Supply voltage
-      - - Frequency
-        - - Number of poles
-          - - Slip
+- Core-loss resistance
+- Magnetizing reactance
+- Supply voltage
+- Frequency
+- Number of poles
+- Slip
+  
 Using the laboratory test data, the application calculates the induction motor equivalent-circuit parameters, including: - Stator resistance, \(R_1\) - Stator leakage reactance, \(X_1\) - Rotor resistance, \(R_2\) - Rotor leakage reactance, \(X_2\) - Core-loss resistance, \(R_c\) - Magnetizing reactance, \(X_m\) - Effective rotor resistance, \(R_2/s\) The calculated values are automatically displayed on the induction motor per-phase equivalent-circuit diagram.
 ## Main Features
 - Interactive MATLAB App Designer graphical user interface
@@ -31,12 +32,13 @@ Using the laboratory test data, the application calculates the induction motor e
 The application calculates and plots the following induction motor characteristics:
 - Induced torque versus rotor speed
 - Converted mechanical power versus rotor speed
-- - Rotor copper loss versus rotor speed
-  - - Core loss versus rotor speed
-    - - Stator copper loss versus rotor speed
-      - - Input power versus rotor speed
-        -  - Efficiency versus rotor speed
-       The torque-speed curve is used to visualise the starting torque, maximum torque, stable operating region, and the reduction of torque near synchronous speed. ## Numerical Calculations For each selected slip value, the application determines the rotor speed using: \[ N_m = (1-s)N_s \] where: - \(N_m\) is the rotor mechanical speed - \(s\) is the slip - \(N_s\) is the synchronous speed The synchronous speed is calculated from: \[ N_s = \frac{120f}{P} \] where: - \(f\) is the supply frequency - \(P\) is the number of poles The application then uses the induction motor equivalent circuit to calculate stator current, rotor current, air-gap power, converted power, different motor losses, developed torque, input power, and efficiency.
+- Rotor copper loss versus rotor speed
+- Core loss versus rotor speed
+- Stator copper loss versus rotor speed
+- Input power versus rotor speed
+- Efficiency versus rotor speed
+  
+The torque-speed curve is used to visualise the starting torque, maximum torque, stable operating region, and the reduction of torque near synchronous speed. ## Numerical Calculations For each selected slip value, the application determines the rotor speed using: \[ N_m = (1-s)N_s \] where: - \(N_m\) is the rotor mechanical speed - \(s\) is the slip - \(N_s\) is the synchronous speed The synchronous speed is calculated from: \[ N_s = \frac{120f}{P} \] where: - \(f\) is the supply frequency - \(P\) is the number of poles The application then uses the induction motor equivalent circuit to calculate stator current, rotor current, air-gap power, converted power, different motor losses, developed torque, input power, and efficiency.
 
 ![Screenshot](assets/Screenshot%202026-06-21%20011011.png)
 
