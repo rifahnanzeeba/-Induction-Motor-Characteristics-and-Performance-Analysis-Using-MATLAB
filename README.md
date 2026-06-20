@@ -30,7 +30,7 @@ This is my Numerical Technique Laboratory Project . in this project, I developed
 
 ![Screenshot](assets/Screenshot%202026-06-21%20011908.png)
 
-![Screenshot](assets/Screenshot%202026-06-21%20012414.png)
+
 
 ![Screenshot](assets/Screenshot%202026-06-21%20012659.png)
 
