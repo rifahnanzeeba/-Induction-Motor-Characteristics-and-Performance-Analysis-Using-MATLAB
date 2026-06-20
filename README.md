@@ -40,8 +40,6 @@ This is my Numerical Technique Laboratory Project . in this project, I developed
 
 ![Screenshot](assets/Screenshot%202026-06-21%20012812.png)
 
-
-
 ![Screenshot](assets/Screenshot%202026-06-21%20012831.png)
 
 ![Screenshot](assets/Screenshot%202026-06-21%20012848.png)
